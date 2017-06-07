@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { MenuController, NavController, Slides } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 
-import { Tabs } from '../tabs/tabs';
+import { SignupPage } from "../signup/signup";
 
 @Component({
   selector: 'page-tutorial',
@@ -22,7 +22,7 @@ export class Tutorial {
   ) { }
 
   startApp() {
-    this.navCtrl.setRoot(Tabs).then(() => {
+    this.navCtrl.setRoot(SignupPage).then(() => {
       this.storage.set('intro-done', 'true');
     })
   }

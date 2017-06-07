@@ -15,6 +15,7 @@ import { Tutorial } from '../pages/tutorial/tutorial';
 import { Msaada } from '../pages/msaada/msaada';
 import { Sheria } from '../pages/sheria/sheria';
 import { Silaha } from '../pages/silaha/silaha';
+import { SignupPage } from "../pages/signup/signup";
 
 // tabs section
 import { About } from '../pages/about/about';
@@ -25,12 +26,13 @@ import { CategoryPage } from "../pages/category/category";
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { PolisiProvider } from '../providers/polisi/polisi';
+import { UserProvider } from "../providers/user/user";
 
 
 
 @NgModule({
   declarations: [
-    MyApp, Tutorial, Tabs, About, Silaha, Sheria, Msaada, DetailsPage, CategoryPage
+    MyApp, Tutorial, Tabs, About, Silaha, Sheria, Msaada, DetailsPage, CategoryPage, SignupPage
   ],
   imports: [
     BrowserModule, HttpModule,
@@ -38,14 +40,14 @@ import { PolisiProvider } from '../providers/polisi/polisi';
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp, Tutorial, Tabs, About, Silaha, Sheria, Msaada, DetailsPage,CategoryPage
+    MyApp, Tutorial, Tabs, About, Silaha, Sheria, Msaada, DetailsPage,CategoryPage, SignupPage
   ],
   providers: [
 	  Storage,
     OfficerService,
     StatusBar,
     SplashScreen, { provide: ErrorHandler, useClass: IonicErrorHandler },
-    PolisiProvider
+    PolisiProvider, UserProvider
   ]
 })
 export class AppModule { }
