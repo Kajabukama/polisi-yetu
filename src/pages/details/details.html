@@ -1,0 +1,30 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title text-uppercase> Officer Detail</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="detail">
+    <ion-card *ngFor="let o of selected">
+        <img src="assets/img/{{o.avatar}}">
+        <ion-item>
+            <ion-icon name="contact" item-left medium></ion-icon>
+            <h2>{{o.name}}</h2>
+            <p>{{o.title}}</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon name="wine" item-left medium></ion-icon>
+            <h2>Station {{o.station}}</h2>
+            <p>{{o.division}}</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon name="call" item-left medium></ion-icon>
+            <button ion-item>{{o.mobile}}</button>
+        </ion-item>
+    </ion-card>
+</ion-content>

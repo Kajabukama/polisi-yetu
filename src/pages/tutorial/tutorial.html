@@ -1,0 +1,57 @@
+<ion-header no-border>
+  <ion-navbar>
+    <ion-buttons end *ngIf="showSkip">
+      <button ion-button (click)="startApp()">Skip</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce>
+  <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager>
+
+    <ion-slide>
+      <div class="teal">
+          <img src="assets/img/security.svg" class="slide-image"/>
+          <h2 class="slide-title">Polisi <b>Yetu</b></h2>
+          <p>
+            <b>Polisi Yetu </b> ni app kwa ajili ya simu za Android, Windows na iOS iliyoandaliwa ili kusaidia kuongeza dhana ya utawala bora na uwajibikaji baina ya jeshi la Polisi na wananchi wa Tanzania.
+          </p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/walkie-talkie.svg" class="slide-image"/>
+      <h2 class="slide-title" >Pata <b>Msaada</b></h2>
+      <p> Kupitia <b>Polisi Yetu</b> wananchi watakuwa na nafasi ya kupata misaada mbalimbali kutoka Jest la Polisi pamoja na vyombo vyake vya ulinzi na usalama.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/download.svg" class="slide-image"/>
+      <h2 class="slide-title" ><b>Pakua</b> Nyaraka </h2>
+      <p> Sasa kupitia <b>Polisi Yetu</b> app unaweza kupakua nyaraka kadhaa za muhimu zinazohotajika katika vituo vya Polisi kwa matumizi mbalimbali</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/justice.svg" class="slide-image"/>
+      <h2 class="slide-title" >Tambua <b>Sheria</b></h2>
+      <p> Kupitia <b>Polisi Yetu</b> wananchi watakuwa na nafasi ya kujifunza sheria mbalimbali, hasa zinazohusu masuala ya Barabarani, Dhamana n.k</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/weapons.svg" class="slide-image"/>
+      <h2 class="slide-title"><b>Silaha</b> Yako</h2>
+      <p>Kwa masuala muhimu yanayohusu umiliki wa silaha, <b>Polisi Yetu</b> app, inakupatia namna mbalimbali ya kuwasilisha taarifa husika. </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/gps.svg" class="slide-image"/>
+      <h2 class="slide-title">Jisajiri <b>Sasa</b></h2>
+      <p><b>Polisi Yetu</b> app inahitaji taarifa zako fupi kwa ajili ya mawasiliano zaidi</p>
+      <button ion-button icon-right large clear (click)="startApp()">
+        Endelea
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

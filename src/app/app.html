@@ -1,0 +1,28 @@
+<ion-menu [content]="content">
+    <!--<ion-header>
+        <ion-toolbar text-uppercase>
+            <ion-title>Polisi Yetu</ion-title>
+        </ion-toolbar>
+    </ion-header>-->
+
+    <ion-content class="custom content-sidemenu">
+        <div class="profile-section">
+            <div class="profile">
+                <img src="assets/img/focus.jpg" alt="">
+                <h2>Joseph F. Kimario</h2>
+                <p>jkimario@gmail.com</p>
+            </div>
+        </div>
+        <ion-list no-lines>
+            <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        <ion-icon item-left [name]="p.icon"></ion-icon>
+        {{p.title}}
+      </button>
+        </ion-list>
+    </ion-content>
+
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

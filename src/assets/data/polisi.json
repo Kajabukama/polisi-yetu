@@ -1,0 +1,265 @@
+[{
+        "id": 1,
+        "name": "Makao Makuu",
+        "contact": [{
+                "name": "Simon Sirro",
+                "title": "Inspector General Police",
+                "mobile": "0789949495"
+            },
+            {
+                "name": "Albert Nyamhanga",
+                "title": "Kamishina wa fedha &logistics",
+                "mobile": "0786029896"
+            },
+            {
+                "name": "Nsato Marijani",
+                "title": "kamishina wa operation na mafunzo",
+                "mobile": "0658481003"
+            },
+            {
+                "name": "Mussa Alli Mussa",
+                "title": "kamishina wa polisi na jamii",
+                "mobile": "0782417247"
+            },
+            {
+                "name": "Robert Boaz",
+                "title": "Kamishina wa intelijensia ya jinai",
+                "mobile": "0677885100"
+            },
+            {
+                "name": "Elice Mapunda",
+                "title": "kamishina wa uchunguzi wa sayansi ya makosa ya jinai",
+                "mobile": "0719114000"
+            },
+            {
+                "name": "",
+                "title": "ufutiliaji na tathimini",
+                "mobile": "0658271002"
+            },
+            {
+                "name": "",
+                "title": "mafunzo",
+                "mobile": "0754594450"
+            },
+            {
+                "name": "",
+                "title": "Mnadhimu wa upelelezi",
+                "mobile": "0786283255"
+            },
+            {
+                "name": "",
+                "title": "operasheni za polisi",
+                "mobile": "0658470502"
+            },
+            {
+                "name": "",
+                "title": "Mahusiano ya kimataifa",
+                "mobile": "0713633617"
+            },
+            {
+                "name": "",
+                "title": "Interpol",
+                "mobile": "0754288972"
+            },
+            {
+                "name": "",
+                "title": "Teknohama",
+                "mobile": "0677004332"
+            },
+            {
+                "name": "",
+                "title": "Msemaji wa jeshi la polisi",
+                "mobile": "0758009861"
+            },
+            {
+                "name": "",
+                "title": "kitengo cha maadili na malalamiko",
+                "mobile": "0732922068"
+            },
+            {
+                "name": "",
+                "title": "Mnadhimu polisi",
+                "mobile": "07540892"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Polisi Mikoa Yote",
+        "contact": [{
+                "region": "Arusha",
+                "mobile": "0715009912"
+            },
+            {
+                "region": "Mwanza",
+                "mobile": "0715009949"
+            },
+            {
+                "region": "Kigoma",
+                "mobile": "0715009915"
+            },
+            {
+                "region": "Rukwa",
+                "mobile": "0715009954"
+            },
+            {
+                "region": "Kagera",
+                "mobile": "0715009916"
+            },
+            {
+                "region": "Ilala",
+                "mobile": "0715009980"
+            },
+            {
+                "region": "Katavi",
+                "mobile": "0715009957"
+            },
+            {
+                "region": "Morogoro",
+                "mobile": "0715009946"
+            },
+            {
+                "region": "Dodoma",
+                "mobile": "0715009914"
+            },
+            {
+                "region": "Mbeya",
+                "mobile": "0715009931"
+            },
+            {
+                "region": "Kilimanjaro",
+                "mobile": "0715009923"
+            },
+            {
+                "region": "Pwani",
+                "mobile": "0715009953"
+            },
+            {
+                "region": "Mtwara",
+                "mobile": "0715009948"
+            },
+            {
+                "region": "Shinyanga",
+                "mobile": "0767508090"
+            },
+            {
+                "region": "Mnyara",
+                "mobile": "0715009929"
+            },
+            {
+                "region": "Njombe",
+                "mobile": "0658376495"
+            },
+            {
+                "region": "Mara",
+                "mobile": "0715009930"
+            },
+            {
+                "region": "Simiyu",
+                "mobile": "0658376481"
+            },
+            {
+                "region": "Tanga",
+                "mobile": "0715009963"
+            },
+            {
+                "region": "Lindi",
+                "mobile": "0715009927"
+            },
+            {
+                "region": "Singida",
+                "mobile": "0715009959"
+            },
+            {
+                "region": "Ruvuma",
+                "mobile": "0715009956"
+            },
+            {
+                "region": "Tarime",
+                "mobile": "0715009994"
+            },
+            {
+                "region": "Geita",
+                "mobile": "0658376488"
+            },
+            {
+                "region": "Temeke",
+                "mobile": "0715009979"
+            },
+            {
+                "region": "Kinondo",
+                "mobile": "0715009976"
+            },
+            {
+                "region": "Tabora",
+                "mobile": "0715009961"
+            },
+            {
+                "region": "Iringa",
+                "mobile": "0715009921"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Vikosi Polisi",
+        "contact": [{
+                "kikosi": "Usalama Barabarani",
+                "mobile": "0754360046"
+            },
+            {
+                "kikosi": "Anga",
+                "mobile": "0658376467"
+            },
+            {
+                "kikosi": "Wanamaji",
+                "mobile": "065848002"
+            },
+            {
+                "kikosi": "Ufundi",
+                "mobile": "0713629824"
+            },
+            {
+                "kikosi": "Kutuliza Ghaasi",
+                "mobile": "0719222101"
+            },
+            {
+                "kikosi": "Bendi",
+                "mobile": "0717260791"
+            },
+            {
+                "kikosi": "Polisi Afya",
+                "mobile": "0713632691"
+            },
+            {
+                "kikosi": "Kuzuia wizi wa Mifugo",
+                "mobile": "0658376062"
+            },
+            {
+                "kikosi": "Mbwa na Farasi",
+                "mobile": "07820785503"
+            },
+            {
+                "kikosi": "999DSM",
+                "mobile": "0713323999"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Vyuo Polisi",
+        "contact": [{
+                "chuo": "Dar es salam",
+                "mobile": "0715009985"
+            },
+            {
+                "chuo": "Moshi",
+                "mobile": "0715009972"
+            },
+            {
+                "chuo": "Zanzibar",
+                "mobile": "0715009973"
+            }
+        ]
+    }
+]

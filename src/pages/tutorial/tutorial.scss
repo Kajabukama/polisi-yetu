@@ -1,0 +1,35 @@
+page-tutorial {
+    ion-slide {
+        background-color: #263238;
+    }
+    .toolbar-background {
+        background: transparent;
+        border-color: transparent;
+        background-color: #263238;
+    }
+    .slide-zoom {
+        height: 100%;
+    }
+    .slide-title {
+        margin-top: 2.8rem;
+        font-weight: 300;
+        color: #fff;
+    }
+    .slide-image {
+        max-height: 50%;
+        max-width: 60%;
+        margin: 36px 0;
+    }
+    b {
+        font-weight: 500;
+    }
+    p {
+        padding: 0 40px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #90A4AE;
+        b {
+            color: #607D8B;
+        }
+    }
+}
